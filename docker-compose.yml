@@ -1,0 +1,19 @@
+version: "3"
+services:
+  react-app:
+    image: react-app
+    build: .
+    ports:
+      - "3000:3000"
+    networks:
+      - node-app
+  api-server:
+    image: api-server
+    ports:
+      - "4000:4000"
+    networks:
+      - node-app
+
+networks:
+  node-app:
+    driver: bridge
