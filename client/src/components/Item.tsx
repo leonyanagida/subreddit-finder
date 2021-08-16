@@ -41,7 +41,7 @@ export default function Item({
           />
         ) : (
           <img
-            src="https://placehold.it/100"
+            src="http://via.placeholder.com/100x100"
             width={64}
             height={64}
             className="mr-3"
