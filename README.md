@@ -2,8 +2,6 @@
 
 Find your favorite subreddit with one simple search.
 
-View the [live website](https://subreddit-finder-1.herokuapp.com/).
-
 ### Tech Stack
 
 - Front-end: React.js
